@@ -17,13 +17,15 @@ public class LCP844_ReverseString {
             s[i] = s[s.length-1-i];
             s[s.length -1-i] = t;            
         }        
-        System.out.println("Reversed String:");
+        System.out.println("844 -> Reversed String:");
         System.out.println(s);
     }
     
-    public static void main(String args[]){
+     public static void main(String args[]){
+         
+         //844 reverse a string
         char[]s ={'h','e','l','l','o'};
         LCP844_ReverseString reverse = new LCP844_ReverseString();
         reverse.reverseString(s);
-    }
+     }
 }
